@@ -1,5 +1,7 @@
 package test;
 
+
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -21,9 +23,10 @@ class OnlineTestTest {
     @org.junit.jupiter.api.Test
     void check() {
 
-
-  
-  
+        myApp.current = 0;
+        myApp.jb[1].setSelected(true);
+        assertTrue(myApp.check());
+      
         myApp.current = 0;
         myApp.jb[2].setSelected(false);
         assertFalse(myApp.check());
@@ -56,6 +59,7 @@ class OnlineTestTest {
         myApp.current = 9;
         myApp.jb[2].setSelected(true);
         Assertions.assertTrue(myApp.check());
+
 
 
     }
