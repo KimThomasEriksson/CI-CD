@@ -23,7 +23,11 @@ class OnlineTestTest {
     void check() {
 
         myApp.current = 0;
-        Assertions.assertTrue(myApp.check());
+        myApp.jb[2].setSelected(false);
+        assertFalse(myApp.check());
+
+
+
 
     }
 
