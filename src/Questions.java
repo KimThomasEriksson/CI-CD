@@ -10,8 +10,8 @@ public class Questions {
 
         this.questions = new ArrayList<String>();
 
-        questions.add("Que1: Which one among these is not a primitive datatype?");
-        questions.add("Que2: Which class is available to all the class automatically?");
+        questions.add("Fråga1: Vilka av dessa är INTE en primitiv datatyp");
+        questions.add("Fråga2: Vilken class är tillgänglig för alla klasser automatiskt?");
         questions.add("Que3: Which package is directly available to our class without importing it?");
         questions.add("Que4: String class is defined in which package?");
         questions.add("Que5: Which institute is best for java coaching?");
