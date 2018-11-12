@@ -3,15 +3,15 @@ package src;    /*Online Java Paper Test*/
     import java.awt.event.*;
     import javax.swing.*;  
       
-    class OnlineTest extends JFrame implements ActionListener  
+    public class OnlineTest extends JFrame implements ActionListener
     {  
-        JLabel l;  
-        JRadioButton jb[]=new JRadioButton[5];  
-        JButton b1,b2;  
-        ButtonGroup bg;  
-        int count=0,current=0,x=1,y=1,now=0;  
-        int m[]=new int[10];      
-        OnlineTest(String s)  
+        public JLabel l;
+        public JRadioButton jb[]=new JRadioButton[5];
+        public JButton b1,b2;
+        public ButtonGroup bg;
+        public int count=0,current=0,x=1,y=1,now=0;
+        public int m[]=new int[10];
+        public OnlineTest(String s)
         {  
             super(s);  
             l=new JLabel();  
@@ -95,7 +95,7 @@ package src;    /*Online Java Paper Test*/
                 System.exit(0);  
             }  
         }  
-        void set()  
+        public void set()
         {  
             jb[4].setSelected(true);  
             if(current==0)  
@@ -155,7 +155,7 @@ package src;    /*Online Java Paper Test*/
             for(int i=0,j=0;i<=90;i+=30,j++)  
                 jb[j].setBounds(50,80+i,200,20);  
         }  
-        boolean check()  
+        public boolean check()
         {  
             if(current==0)  
                 return(jb[1].isSelected());  
