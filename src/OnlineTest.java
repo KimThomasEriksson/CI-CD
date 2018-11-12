@@ -1,7 +1,6 @@
-    /*Online Java Paper Test*/  
+package src;    /*Online Java Paper Test*/
       
-    import java.awt.*;  
-    import java.awt.event.*;  
+    import java.awt.event.*;
     import javax.swing.*;  
       
     class OnlineTest extends JFrame implements ActionListener  
@@ -185,3 +184,5 @@
             new OnlineTest("Online Test Of Java");  
         }  
     }  
+
+
