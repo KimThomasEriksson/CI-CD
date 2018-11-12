@@ -12,8 +12,8 @@ class QuestionsTest {
         src.Questions question = new Questions();
 
 
-        assertEquals("Que1: Which one among these is not a primitive datatype?", question.questions.get(0));
-        assertEquals("Que2: Which class is available to all the class automatically?", question.questions.get(1));
+        assertEquals("Fråga1: Vilka av dessa är INTE en primitiv datatyp", question.questions.get(0));
+        assertEquals("Fråga2: Vilken class är tillgänglig för alla klasser automatiskt?", question.questions.get(1));
         assertEquals("Que3: Which package is directly available to our class without importing it?", question.questions.get(2));
         assertEquals("Que4: String class is defined in which package?", question.questions.get(3));
         assertEquals("Que5: Which institute is best for java coaching?", question.questions.get(4));
