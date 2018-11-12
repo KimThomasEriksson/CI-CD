@@ -20,8 +20,6 @@ class OnlineTestTest {
     void check() {
 
 
-
-
         myApp.current = 9;
         myApp.jb[1].setSelected(true);
         assertFalse(myApp.check());
