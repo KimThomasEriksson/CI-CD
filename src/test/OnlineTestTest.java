@@ -2,11 +2,14 @@ package test;
 
 
 import org.junit.jupiter.api.Assertions;
-import src.OnlineTest;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class OnlineTestTest {
 
-    OnlineTest myApp = new OnlineTest("Online Test Of Java");
+    src.OnlineTest myApp = new src.OnlineTest("Online Test Of Java");
 
     @org.junit.jupiter.api.Test
     void actionPerformed() {
