@@ -19,8 +19,14 @@ class OnlineTestTest {
     @org.junit.jupiter.api.Test
     void check() {
 
-        myApp.current = 0;
-        Assertions.assertTrue(myApp.check());
+
+
+
+        myApp.current = 9;
+        myApp.jb[1].setSelected(true);
+        assertFalse(myApp.check());
+
+
 
     }
 
