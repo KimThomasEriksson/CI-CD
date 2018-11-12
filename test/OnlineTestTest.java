@@ -1,8 +1,12 @@
-package src.test;
+package test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import src.OnlineTest;
 
 class OnlineTestTest {
+
+    OnlineTest myApp = new OnlineTest("Online Test Of Java");
 
     @org.junit.jupiter.api.Test
     void actionPerformed() {
@@ -14,6 +18,10 @@ class OnlineTestTest {
 
     @org.junit.jupiter.api.Test
     void check() {
+
+        myApp.current = 0;
+        Assertions.assertTrue(myApp.check());
+
     }
 
     @org.junit.jupiter.api.Test
