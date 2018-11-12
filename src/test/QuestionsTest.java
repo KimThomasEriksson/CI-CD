@@ -20,8 +20,8 @@ class QuestionsTest {
         assertEquals("Que6: Which one among these is not a keyword?", question.questions.get(5));
         assertEquals("Que7: Which one among these is not a class?", question.questions.get(6));
         assertEquals("Que8: which one among these is not a function of Object class?", question.questions.get(7));
-        assertEquals("Que9: which function is not present in Applet class?", question.questions.get(8));
-        assertEquals("Que10: Which one among these is not a valid component?", question.questions.get(9));
+        assertEquals("Fråga9: Vilken funktion finns inte i Applet-klassen?", question.questions.get(8));
+        assertEquals("Fråga10: Vilken av dessa är inte en giltig komponent?", question.questions.get(9));
 
 
 
