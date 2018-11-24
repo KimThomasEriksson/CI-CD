@@ -30,7 +30,6 @@
             <artifactId>liquibase-maven-plugin</artifactId>
             <version>2.0.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.netbeans.api/org-openide-awt -->
         <!-- https://mvnrepository.com/artifact/com.levigo/gwt-awt -->
         <dependency>
             <groupId>com.levigo</groupId>
