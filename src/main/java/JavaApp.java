@@ -3,6 +3,7 @@ import javax.swing.*;
 
 public class JavaApp extends JFrame implements ActionListener
 {
+
     public JLabel l;
     public JRadioButton jb[]=new JRadioButton[5];
     public JButton b1,b2;
