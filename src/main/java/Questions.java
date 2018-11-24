@@ -1,5 +1,3 @@
-package src;
-
 import java.util.ArrayList;
 
 public class Questions {
@@ -10,14 +8,14 @@ public class Questions {
 
         this.questions = new ArrayList<String>();
 
-        questions.add("Que1: Which one among these is not a primitive datatype?");
-        questions.add("Que2: Which class is available to all the class automatically?");
-        questions.add("Que3: Which package is directly available to our class without importing it?");
+        questions.add("Fråga1: Vilka av dessa är INTE en primitiv datatyp");
+        questions.add("Fråga2: Vilken class är tillgänglig för alla klasser automatiskt?");
+        questions.add("Fråga3: Vilket paket är tillgängligt för våran klass utan att importera den?");
         questions.add("Fråga4: Strängklass definieras i vilket paket?");
         questions.add("Fråga5: Vilket institut är bäst för java coaching?");
-        questions.add("Que6: Which one among these is not a keyword?");
-        questions.add("Que7: Which one among these is not a class?");
-        questions.add("Que8: which one among these is not a function of Object class?");
+        questions.add("Fråga6: Vilka av dessa är inte ett nyckelord?");
+        questions.add("Fråga7: Vilken av dessa är en klass?");
+        questions.add("Fråga8: Vilken av dessa är inte en funktion av objekt klass");
         questions.add("Fråga9: Vilken funktion finns inte i Applet-klassen?");
         questions.add("Fråga10: Vilken av dessa är inte en giltig komponent?");
 
