@@ -10,6 +10,15 @@ B. Lyft ut frågorna till en array som finns i en separat klass. Låt den klasse
 
 D. Ändra frågorna / lägg till nya frågor. Flera av er skall göra detta, och sedan göra en merge av resultaten till ert huvudprojekt.
 
+# 2.1 
+
+I denna uppgift skall du skapa ett automatiserat test med Selenium. 
+För VG skall du dessutom visa att du kan skriva scripts för Selenium. Börja med att ta hem och installera Selenium. https://www.seleniumhq.org/ 
+
+A. Skapa en upprepningsbar Selenium-sekvens för att via webbinterface inspektera ert Githubrepository från gruppuppgiften, inklusive vilka commits som har gjorts. Redovisa det skript som skapas för sekvensen. 
+
+B. För VG: Gör nu samma sak som i uppgift A genom att skriva ett program som använder sig av Selenium API. Välj själv om du gör det i Java, C# eller Python.
+
 # 2.2 
 I denna uppgift skall du ge en kort beskrivning som visar att du vet hur man bygger installationspaket för leverans / installation. För VG skall du dessutom göra beskrivningen så pass detaljerad att den kan användas som manual. Du kommer använda dig av det projekt ni har arbetat med i gruppuppgiften. 
 
