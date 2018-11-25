@@ -6,7 +6,9 @@ Gruppuppgift För denna uppgift skall ni arbeta i grupper på 3-4 personer. Inom
 
 A. Skriv JUnit-tester till metoden check. 
 
-B. Lyft ut frågorna till en array som finns i en separat klass. Låt den klassen ha en metod för att returnera en fråga med angivet nummer. Skapa en metod i den ursprungliga klassen som hämtar nästa fråga. C. Skriv Junit-tester för både den nya klassen och den nya metoden i B ovan. 
+B. Lyft ut frågorna till en array som finns i en separat klass. Låt den klassen ha en metod för att returnera en fråga med angivet nummer. Skapa en metod i den ursprungliga klassen som hämtar nästa fråga. 
+
+C. Skriv Junit-tester för både den nya klassen och den nya metoden i B ovan. 
 
 D. Ändra frågorna / lägg till nya frågor. Flera av er skall göra detta, och sedan göra en merge av resultaten till ert huvudprojekt.
 
